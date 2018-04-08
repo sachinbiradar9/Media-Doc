@@ -1,0 +1,28 @@
+{
+  "name": "media-doc",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://sachinbiradar9.github.io/media-doc",
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-dropzone": "^4.2.9",
+    "react-event-timeline": "^1.5.1",
+    "react-native-awesome-button": "^1.8.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bson": "^2.0.5",
+    "gh-pages": "^1.1.0",
+    "mongodb-stitch": "^3.0.7"
+  }
+}
